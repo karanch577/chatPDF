@@ -1,0 +1,19 @@
+{
+  "name": "chatpdf-queue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.11.4",
+    "bullmq": "^5.7.11",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "pdfjs-dist": "^4.2.67",
+    "pg": "^8.11.5",
+    "pgvector": "^0.1.8"
+  }
+}
