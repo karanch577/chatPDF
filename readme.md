@@ -2,7 +2,7 @@
 
 ### Steps to setup the project locally
 1. create a .env file according to the sample provided
-2. run this command to build and run the container `docker-compose build then docker-compose up`
+2. run this command to build and run the container `docker-compose build` then `docker-compose up`
 3. Since no ODM or querybuilder is used, create the tables manually. 
 ```sql
 CREATE EXTENSION IF NOT EXISTS vector;
