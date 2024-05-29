@@ -23,7 +23,7 @@ export const addProject = async (req, res) => {
         // add to the queue to generate vector embeddings
         const embeddingQueue = new Queue("embedding", {
             connection: {
-                host: "localhost",
+                host: process.env.REDIS_HOST,
                 port: 6379
             }
         })
